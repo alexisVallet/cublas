@@ -44,7 +44,7 @@ library
                         Foreign.CUDA.CuFFT.FFI
 
   other-modules:        Foreign.CUDA.Cublas.TH
-       
+                        Foreign.CUDA.Cublas.THBase
 
   build-depends:        base >=4.4 && <4.9,
                         cuda >=0.4.1,
